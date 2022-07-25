@@ -78,10 +78,11 @@ const HomePage = () => {
                 style={{ position: "absolute", right: "0px", zIndex: "1" }}
               >
                 <img
+                  width="563px"
+                  height="402px"
+                  fetchpriority="high"
                   src="/assets/img/home/requestly-mac-app-cut.png"
                   alt="Desktop App Image"
-                  width="600px"
-                  loading="lazy"
                 />
               </div>
             </div>
@@ -96,37 +97,47 @@ const HomePage = () => {
               </span>
               <span className="mx-1">
                 <img
-                  src="/assets/img/home/star.svg"
-                  alt="Star"
+                  width="26px"
+                  height="26px"
                   loading="lazy"
+                  alt="Star"
+                  src="/assets/img/home/star.svg"
                 />
               </span>
               <span className="mx-1">
                 <img
-                  src="/assets/img/home/star.svg"
-                  alt="Star"
+                  width="26px"
+                  height="26px"
                   loading="lazy"
+                  alt="Star"
+                  src="/assets/img/home/star.svg"
                 />
               </span>
               <span className="mx-1">
                 <img
-                  src="/assets/img/home/star.svg"
-                  alt="Star"
+                  width="26px"
+                  height="26px"
                   loading="lazy"
+                  alt="Star"
+                  src="/assets/img/home/star.svg"
                 />
               </span>
               <span className="mx-1">
                 <img
-                  src="/assets/img/home/star.svg"
-                  alt="Star"
+                  width="26px"
+                  height="26px"
                   loading="lazy"
+                  alt="Star"
+                  src="/assets/img/home/star.svg"
                 />
               </span>
               <span className="mx-1">
                 <img
-                  src="/assets/img/home/star.svg"
-                  alt="Star"
+                  width="26px"
+                  height="26px"
                   loading="lazy"
+                  alt="Star"
+                  src="/assets/img/home/star.svg"
                 />
               </span>
             </div>
@@ -139,9 +150,11 @@ const HomePage = () => {
                   href="https://chrome.google.com/webstore/detail/requestly-modify-headers/mdnleldcmiljblolnjhpnblkcekpdkpa"
                 >
                   <img
-                    src="/assets/img/home/chromeStoreIcon.svg"
-                    alt="Chrome Store Icon"
+                    width="60px"
+                    height="60px"
                     loading="lazy"
+                    alt="Chrome Store Icon"
+                    src="/assets/img/home/chromeStoreIcon.svg"
                   />
                 </a>
               </span>
@@ -152,6 +165,8 @@ const HomePage = () => {
             <div className="col-auto d-flex align-items-center mt-2">
               <span>
                 <img
+                  width="34px"
+                  heigth="34px"
                   src="/assets/img/home/peopleIcon.svg"
                   alt="Users Icon"
                   loading="lazy"
@@ -191,9 +206,11 @@ const HomePage = () => {
           </div>
           <div className="container">
             <img
-              src="/assets/img/home/Requestly-app-2.svg"
-              alt="what-is-requestly-mac-app"
+              width="1289px"
+              height="638px"
               loading="lazy"
+              alt="what-is-requestly-mac-app"
+              src="/assets/img/home/Requestly-app-2.svg"
             />
           </div>
           <div className="row px-1 mt-5 mt-lg-6">
