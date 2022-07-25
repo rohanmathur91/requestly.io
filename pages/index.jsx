@@ -78,10 +78,10 @@ const HomePage = () => {
                 style={{ position: "absolute", right: "0px", zIndex: "1" }}
               >
                 <img
-                  src="/assets/img/home/requestly-mac-app-cut.png"
-                  alt="Desktop App Image"
                   width="600px"
-                  loading="lazy"
+                  fetchpriority="high"
+                  alt="Desktop App Image"
+                  src="/assets/img/home/requestly-mac-app-cut.png"
                 />
               </div>
             </div>
